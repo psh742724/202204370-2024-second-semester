@@ -1,11 +1,23 @@
 package operator;
 
+import java.util.Scanner;
+
 public class RelationalOP {
 
 	public static void main(String[] args) {
-		int year = 1995;
+		Scanner cs = new Scanner(System.in);
+		System.out.println("두 정수를 입력 >> ");
 		
-		System.out.format("자바는 %i년도에 개발되었다.", year);
+		int x = cs.nextInt();
+		int y = cs.nextInt();
+		
+		System.out.format("%d > %d => %b %n", x, y, x > y);
+		System.out.format("%d >= %d => %b %n", x, y, x >= y);
+		System.out.format("%d < %d => %b %n", x, y, x < y);
+		System.out.format("%d <= %d => %b %n", x, y, x <= y);
+		System.out.format("%d == %d => %b %n", x, y, x == y);
+		System.out.format("%d != %d => %b %n", x, y, x != y);
+		
 	}
 
 }
