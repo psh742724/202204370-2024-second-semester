@@ -2,7 +2,7 @@ package control.loop;
 
 import java.util.Scanner;
 
-public class Break {
+public class Continue {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -13,19 +13,17 @@ public class Break {
 		System.out.print("끝 정수 입력: ");
 		int c = in.nextInt();
 		
-		System.out.print("반복을 중단할 정수 입력: ");
+		System.out.print("조건에 들어갈 정수 입력: ");
 		int b = in.nextInt();
 		
 		for (int i = a; i <= c; i++) {
-			System.out.print(i + " ");
-			
-			if (i == b) { // i가 b가 될 때, b까지 출력 후 반복문 종료
-				break;
+			if (i % b == 0) {
+				continue; // 조건에 해당하는 부분을 제외하고 반복을 계속하는 명령어
 			}
+			System.out.print(i + " ");
 		}
 		
 		in.close();
-
 	}
 
 }
