@@ -13,11 +13,12 @@ public class Account {
 	}
 	
 	public Account(String owner, long balance) {
-		this(owner);
-		/* this(balance);
-		 	this.owner = owner;
+		this(balance);
+		this.owner = owner;
+		/*
+		 this(owner);
+		 this.balance = balance;
 		 */
-		this.balance = balance;
 	}
 	
 	public static void main (String args[]) {
