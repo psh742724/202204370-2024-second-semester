@@ -31,7 +31,7 @@ public class Circle {
 		Circle c1 = new Circle(2.78);
 		c1.print();
 		Circle c2 = new Circle(5.25);
-		c2.print();
+		c2.print(); 
 		
 		c1.PI = 3.14159265;
 		System.out.println("원주율: " + c2.PI);
