@@ -4,6 +4,7 @@ public class Account {
 	public String owner;
 	public long balance;
 	
+	//생성자
 	public Account(String owner) {
 		this.owner = owner;
 	}
