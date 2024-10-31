@@ -1,8 +1,8 @@
 package inheritance.constructor;
 
 public class Motor extends Vehicle {
-	public String name = "자동차";
-	public int displacement;
+	public String name = "자동차"; // 이름
+	public int displacement; // 배기량
 	
 	public Motor() {
 		super(); // 생략 가능
