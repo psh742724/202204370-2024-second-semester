@@ -27,7 +27,7 @@ public class Staff extends Faculty {
 		
 		Staff he = new Staff("최영기", 1167429, "남도대학교", 1287, "기획처");
 		he.printInfo();
-		he.printFacultyInfo();
+		// he.printFacultyInfo();
 
 	}
 
