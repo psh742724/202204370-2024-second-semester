@@ -1,7 +1,7 @@
 package inheritance.overloading;
 
 public class Sum {
-	public int add(int a, int b) {
+	public int add(int a, int b) { // add_int_int()
 		return a + b;
 	}
 	
@@ -21,7 +21,7 @@ public class Sum {
 	public static void main(String[] args) {
 		Sum adder = new Sum();
 		
-		System.out.println(adder.add(3, 6));
+		System.out.println(adder.add(3, 6)); // add_int_int(3,6)
 		System.out.println(adder.add(3, 6, 9));
 		System.out.println(adder.add(new int[] {3, 6, 9, 12}, 4));
 	}
