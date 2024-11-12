@@ -22,10 +22,10 @@ public class Staff extends Faculty {
 		Person she = new Person("이소라", 2056432);
 		she.printInfo();
 		
-		Faculty i = new Faculty("김영태", 1145782, "연한대학교", 38764);
+		Person i = new Faculty("김영태", 1145782, "연한대학교", 38764); //Faculty i를 대체함
 		i.printInfo();
 		
-		Staff he = new Staff("최영기", 1167429, "남도대학교", 1287, "기획처");
+		Person he = new Staff("최영기", 1167429, "남도대학교", 1287, "기획처"); //Staff he를 대체함
 		he.printInfo();
 		// he.printFacultyInfo();
 
