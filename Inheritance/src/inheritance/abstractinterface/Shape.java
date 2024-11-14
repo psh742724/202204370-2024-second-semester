@@ -9,7 +9,7 @@ public abstract class Shape {
 	}
 	
 	public void drawCenter() { // 클래스(일반)
-		System.out.println("(x, y) = " + x + ", " + y);
+		System.out.println("중심좌표 (x, y) = " + x + ", " + y);
 	}
 	
 	public abstract void draw(); // 클래스(추상)
