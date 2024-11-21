@@ -1,9 +1,7 @@
-package java.back;
 
 public class ObjectMath {
 
 	public static void main(String[] args) {
-
 		Object obj = new Object();
 		System.out.println(obj.getClass());
 		System.out.println(obj.hashCode());
@@ -15,9 +13,6 @@ public class ObjectMath {
 		System.out.println(Math.abs(-3.4));
 		System.out.println(Math.pow(3, 4));
 
-			
-
-		
 
 	}
 
