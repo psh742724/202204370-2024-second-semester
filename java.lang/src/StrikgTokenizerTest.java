@@ -13,7 +13,7 @@ public class StrikgTokenizerTest {
 		printToken(st3);
 		
 		//토큰 -- 분리자에 포함
-		StringTokenizer st4 = new StringTokenizer(str, " ()[]{", true);
+		StringTokenizer st4 = new StringTokenizer(str, "()[]{", true);
 		printToken(st4);
 		StringTokenizer st5 = new StringTokenizer(str); //기본 분리자 "\t\n\r\f"
 		printToken(st5, "()");
