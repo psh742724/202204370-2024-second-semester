@@ -20,7 +20,7 @@ public class HashMapTest {
 		
 		while (keys.hasNext()) {
 			String key = keys.next();
-			String value = hm.get(key);
+			String value = hm.get(key); 
 			
 			System.out.println(key + ": " + value);
 		}
